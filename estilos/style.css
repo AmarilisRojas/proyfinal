@@ -1,0 +1,579 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+  
+  /* Barra de navegacion */
+
+  header {
+  background-color: #525560;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 15px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/*Juntos somos PC*/
+.image-viviero {
+  background-image: url("../imagenes/vivero.jpg"); 
+  background-size: cover;
+  background-position: center;
+  padding: 320px;
+}
+  
+.content {
+  display: flex;
+  flex-direction: column;
+}
+  
+.content h1, .content p {
+  color: #000;
+}
+  
+.content h1 {
+  font-size: 36px; 
+  margin-bottom: 10px; 
+}
+  
+.content p {
+  font-size: 18px; 
+  margin-bottom: 20px; 
+}
+
+/*Cita*/
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; 
+}
+  
+.quote p {
+  font-style: italic;
+  text-align: center; 
+}
+  
+.quote cite {
+  font-weight: bold;
+}
+  
+
+/*Sobre nosotros*/
+.content-section {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+}
+  
+.text-content {
+  flex: 1;
+  padding: 20px;
+}
+  
+.text-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+  
+.text-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+  
+.text-content p {
+  margin-bottom: 20px;
+}
+  
+.read-more-button {
+  padding: 10px 20px;
+  background-color: #7ED1F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+  
+.video-content {
+  flex: 1;
+  padding: 20px;
+}
+  
+.video-content iframe {
+  width: 70%;
+  height: 100%;
+}
+
+/*Pasos*/
+.content-pasos {
+  padding: 10%;
+  background-color: #7ED1F2;
+  text-align: center; 
+}
+  
+.content-pasos h3 {
+  margin: 20px 20px;
+  font-size: 20px;
+}
+  
+.content-pasos ul {
+  margin-top: 10px;
+  list-style-type: decimal;
+}
+  
+.content-pasos li {
+  margin-bottom: 20px;
+}
+  
+.content-pasos h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+  
+.content-pasos p {
+  margin-bottom: 10px;
+}
+
+/*Cards*/
+
+.section-cards {
+  text-align: center;
+  background-color: #bdbcbc;
+  padding: 10%;
+}
+
+.section-cards h3 {
+  font-size: 24px;
+  padding: 15px;
+}
+
+.section-cards h2 {
+  font-size: 32px;
+  padding: 15px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 300px;
+  padding: 40px;
+  background-image: url("../imagenes/fondomarcoral.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.card-content {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.card h4 {
+  font-size: 20px;
+  color: #000;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.read-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #bdbcbc;
+  color: #333333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/*Card Adopta*/  
+.section-adopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-adopt {
+  width: 400px;
+  height: 300px;
+  background-image: url("../imagenes/fondomarcoral.jpg");
+  background-size: cover;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content-adopt {
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-adopt h3 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.adopt-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #bdbcbc;
+  color: #333333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/*Eventos*/
+
+.section-evento {
+  text-align: center;
+  background-color: #bdbcbc;
+}
+
+.section-evento h3 {
+  font-size: 24px;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.card-content {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.card h4 {
+  font-size: 20px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.arrow-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #bdbcbc;
+  color: #333333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.arrow-btn span {
+  margin-left: 5px;
+}
+
+
+/*Contactanos*/
+
+.image-section{
+  background-image: url("../imagenes/contactanos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.content{
+  text-align: center;
+  color: #fff;
+}
+
+/*P*/
+.centered-section{
+  background-color: #7ED1F2;
+  padding: 20px; 
+}
+  
+.content {
+  margin: 20px;
+  text-align: center;
+  color: #000;
+}
+  
+.content p {
+  font-size: 16px; 
+  margin: 0 auto;
+  max-width: 800px; 
+}
+  
+/*formulario*/
+#contactanos{
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+#contactanos .titulo-contacto{
+  margin-top: 45px;
+}
+
+#contactanos .form-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#contactanos form input, #contactanos form textarea{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  margin: 15px;
+  width: 500px;
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid #7ED1F2;
+  outline: none;
+}
+
+#contactanos form input[type="button"]{
+  width: 520px;
+  box-shadow: 0px 5px 10px 0px #7ED1F2;
+} 
+
+/*Participa*/
+.section-participa {
+  text-align: center;
+  padding: 20px;
+  margin: 60px;
+}
+
+.section-participa h2 {
+  font-size: 30px;
+}
+
+.section-participa h3 {
+  font-size: 30px;
+}
+
+.section-participaul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.section-participa li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/*Carrusel*/
+.section-carrusel {
+  text-align: center;
+
+}
+
+.photo-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+/*BootCamp*/
+
+.section-boot {
+  margin: 110px;
+  text-align: center;
+}
+
+.section-boot h2 {
+  font-size: 24px;
+  margin: 30px;
+}
+
+.section-boot p {
+  font-size: 16px;
+  margin: 30px;
+}
+
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.horizontal-list li {
+  margin: 0 10px;
+}
+
+/*Adopta*/
+.section-adopta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.section-adopta h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-adopta h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-adopta p {
+  margin: 10px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card img {
+  border-radius: 10%;
+}
+
+.adopt-button {
+  background-color: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/*Blog*/
+.section-doc {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-inf h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 400px; 
+}
+
+.content p {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+
+  
+
+/* Barra de footer */ 
+footer{
+  background-color: #525560;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  color: #000;
+}
+
+footer .social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-media .social-media-box{
+  margin: 20px;
+}
+
+footer .social-media .social-media-box img{
+  width: 30px;
+  height: 30px;
+}
